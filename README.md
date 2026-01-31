@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nails By Lupita | Pretty Things Done Right</title>
+    <title>Nails By Lupita | Luxury • Clean • Baddie Nail Tech</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@500;600&family=Allura&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
@@ -353,7 +353,7 @@
             transform: scale(1.05);
         }
         
-        /* ABOUT SECTION */
+        /* ABOUT SECTION - UPDATED */
         .about {
             padding: 100px 0;
             background-color: var(--beige);
@@ -378,10 +378,19 @@
         }
         
         .about-description {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             line-height: 1.8;
             color: var(--text-dark);
-            margin-bottom: 30px;
+            margin-bottom: 25px;
+        }
+        
+        .about-description:last-child {
+            margin-bottom: 0;
+        }
+        
+        .about-highlight {
+            color: var(--brown);
+            font-weight: 500;
         }
         
         .about-image {
@@ -393,7 +402,7 @@
         
         .about-image img {
             width: 100%;
-            height: 400px;
+            height: 500px;
             object-fit: cover;
             display: block;
         }
@@ -1032,6 +1041,10 @@
                 font-size: 1.5rem;
                 padding: 12px 40px;
             }
+            
+            .about-image img {
+                height: 400px;
+            }
         }
         
         @media (max-width: 480px) {
@@ -1048,7 +1061,7 @@
             }
             
             .about-image img {
-                height: 300px;
+                height: 350px;
             }
             
             .hero-btn {
@@ -1068,6 +1081,10 @@
             
             .booking-hero {
                 padding: 100px 0 60px;
+            }
+            
+            .about-description {
+                font-size: 1.1rem;
             }
         }
     </style>
@@ -1126,23 +1143,29 @@
             </div>
         </section>
 
-        <!-- ABOUT SECTION -->
+        <!-- ABOUT SECTION - UPDATED WITH YOUR TEXT -->
         <section class="about" id="about">
             <div class="container about-container">
                 <div class="about-text">
-                    <h2 class="about-title">About Lupita</h2>
+                    <h2 class="about-title">Heyy! I'm Lupita</h2>
                     <p class="about-description">
-                        Welcome to Nails By Lupita, where pretty things are done right. I'm Lupita, a dedicated nail technician based in Georgia with a passion for creating luxurious, clean, and "baddie" nail sets that make you feel confident and beautiful.
+                        Hope all is well! Welcome to my business page! My name is <span class="about-highlight">Lupita Castillo</span> - I'm a local but private Nail and Toe tech. I also specialize in <span class="about-highlight">piercings and lashes</span>.
                     </p>
                     <p class="about-description">
-                        With meticulous attention to detail and a commitment to quality, I specialize in custom acrylic sets, intricate nail art, and providing a relaxing, professional experience for every client.
+                        I'm located in <span class="about-highlight">Reidsville, GA</span>. You can contact me through Facebook or here if you want to see more of my work - it's all posted on Instagram. For faster response, contact my business number: <span class="about-highlight">(912-401-3684)</span>.
                     </p>
                     <p class="about-description">
-                        Your nails are my canvas, and I'm dedicated to creating artwork you'll love showing off. Book your appointment today and experience the difference of personalized, luxury nail care.
+                        I'm here to make sure you get a great experience if you don't want to go to a salon. With that being said, I am a <span class="about-highlight">home-based nail tech</span> - I do nails in my home. If that's something you're interested in, my policies will be strictly enforced.
+                    </p>
+                    <p class="about-description">
+                        Also keep in mind - just because I'm a private at-home nail tech does <span class="about-highlight">NOT</span> mean I'm dirt cheap! My work is <span class="about-highlight">long-lasting, and very affordable</span>, done with care, and my work will not be rushed.
+                    </p>
+                    <p class="about-description">
+                        Thank you so much for reaching out and trusting me. I'll be in contact as soon as possible 💗
                     </p>
                 </div>
                 <div class="about-image">
-                    <img src="https://www.dropbox.com/scl/fi/10n9ygb3ofv3nln6g5m0c/Screenshot-2026-01-30-200200.png?rlkey=bcnpy534ra4gnxds03dzzw9hq&st=ra1eewxv&raw=1" alt="Nails By Lupita aesthetic">
+                    <img src="https://www.dropbox.com/scl/fi/10n9ygb3ofv3nln6g5m0c/Screenshot-2026-01-30-200200.png?rlkey=bcnpy534ra4gnxds03dzzw9hq&st=ra1eewxv&raw=1" alt="Lupita Castillo - Nail & Toe Tech">
                 </div>
             </div>
         </section>
@@ -1156,32 +1179,32 @@
                         <div class="service-icon">
                             <i class="fas fa-gem"></i>
                         </div>
-                        <h3 class="service-title">Short Acrylic Sets</h3>
-                        <p class="service-description">Beautiful, durable acrylic sets perfect for everyday wear. Custom shapes and lengths available.</p>
+                        <h3 class="service-title">Nail Services</h3>
+                        <p class="service-description">Acrylic sets, custom nail art, fills, and removals. Beautiful, durable work done with care.</p>
                     </div>
                     
                     <div class="service-card">
                         <div class="service-icon">
-                            <i class="fas fa-crown"></i>
+                            <i class="fas fa-spa"></i>
                         </div>
-                        <h3 class="service-title">Long Acrylic Sets</h3>
-                        <p class="service-description">Stunning long-length acrylic sets for maximum impact. Perfect for special occasions or making a statement.</p>
+                        <h3 class="service-title">Toe Services</h3>
+                        <p class="service-description">Pedicures, toe nail art, and maintenance. Complete foot care with attention to detail.</p>
                     </div>
                     
                     <div class="service-card">
                         <div class="service-icon">
-                            <i class="fas fa-paint-brush"></i>
+                            <i class="fas fa-eye"></i>
                         </div>
-                        <h3 class="service-title">Custom Nail Art</h3>
-                        <p class="service-description">Intricate designs, hand-painted artwork, gems, foils, and more. Bring your vision to life.</p>
+                        <h3 class="service-title">Lash Services</h3>
+                        <p class="service-description">Eyelash extensions, fills, and maintenance. Enhance your natural beauty.</p>
                     </div>
                     
                     <div class="service-card">
                         <div class="service-icon">
-                            <i class="fas fa-bolt"></i>
+                            <i class="fas fa-gem"></i>
                         </div>
-                        <h3 class="service-title">Sneeze-Ins</h3>
-                        <p class="service-description">Need an appointment last minute? Sneeze-in appointments available with additional fee.</p>
+                        <h3 class="service-title">Piercings</h3>
+                        <p class="service-description">Professional piercing services with proper sterilization and aftercare guidance.</p>
                     </div>
                 </div>
             </div>
@@ -1223,6 +1246,11 @@
                 <div class="policy-item">
                     <h3 class="policy-title"><i class="fas fa-ban"></i> Deposit Policy</h3>
                     <p class="policy-text">Deposits are non-refundable unless I am unable to take you as a client. Rescheduling requires 24-hour notice.</p>
+                </div>
+                
+                <div class="policy-item">
+                    <h3 class="policy-title"><i class="fas fa-home"></i> Home-Based Service</h3>
+                    <p class="policy-text">I am a home-based nail tech operating in Reidsville, GA. My services are professional, clean, and private.</p>
                 </div>
             </div>
         </section>
@@ -1289,12 +1317,14 @@
                             <label for="service" class="form-label">Select Service</label>
                             <select id="service" class="form-control" required>
                                 <option value="" disabled selected>Choose a service</option>
-                                <option value="short-acrylic">Short Acrylic Set</option>
-                                <option value="long-acrylic">Long Acrylic Set</option>
-                                <option value="custom-art">Custom Nail Art</option>
+                                <option value="nails-acrylic">Acrylic Nails</option>
+                                <option value="nails-custom">Custom Nail Art</option>
+                                <option value="toes">Toe Services</option>
+                                <option value="lashes">Lash Services</option>
+                                <option value="piercings">Piercings</option>
+                                <option value="nails-fill">Nail Fill</option>
+                                <option value="nails-removal">Nail Removal</option>
                                 <option value="sneeze-in">Sneeze-In Appointment (+$15)</option>
-                                <option value="fill">Acrylic Fill</option>
-                                <option value="removal">Acrylic Removal</option>
                                 <option value="other">Other/Consultation</option>
                             </select>
                         </div>
@@ -1349,6 +1379,10 @@
                                 <i class="fas fa-envelope"></i>
                                 <span>cluptiaskyla@gmail.com</span>
                             </div>
+                            <div class="contact-method">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Reidsville, GA</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1362,7 +1396,7 @@
             <div class="footer-container">
                 <div class="footer-brand">
                     <div class="footer-logo">Nails By Lupita</div>
-                    <p>Luxury nail services in Georgia. Pretty things done right.</p>
+                    <p>Home-based nail, toe, lash & piercing services in Reidsville, GA. Pretty things done right.</p>
                 </div>
                 
                 <div class="footer-contact">
@@ -1370,7 +1404,8 @@
                     <ul class="contact-info">
                         <li><i class="fas fa-phone"></i> 912-401-3684</li>
                         <li><i class="fas fa-envelope"></i> cluptiaskyla@gmail.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Local GA Nail Tech</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Reidsville, GA</li>
+                        <li><i class="fab fa-facebook"></i> Facebook: Lupita Castillo</li>
                     </ul>
                 </div>
                 
@@ -1379,6 +1414,9 @@
                     <div class="social-icons">
                         <a href="https://instagram.com/nailssbygloxn" target="_blank" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
                         </a>
                         <a href="mailto:cluptiaskyla@gmail.com" aria-label="Email">
                             <i class="fas fa-envelope"></i>
@@ -1390,12 +1428,12 @@
                 </div>
                 
                 <div class="footer-image">
-                    <img src="https://www.dropbox.com/scl/fi/10n9ygb3ofv3nln6g5m0c/Screenshot-2026-01-30-200200.png?rlkey=bcnpy534ra4gnxds03dzzw9hq&st=ra1eewxv&raw=1" alt="Nails By Lupita aesthetic">
+                    <img src="https://www.dropbox.com/scl/fi/10n9ygb3ofv3nln6g5m0c/Screenshot-2026-01-30-200200.png?rlkey=bcnpy534ra4gnxds03dzzw9hq&st=ra1eewxv&raw=1" alt="Lupita Castillo - Nail & Toe Tech">
                 </div>
             </div>
             
             <div class="copyright">
-                &copy; 2023 Nails By Lupita. All rights reserved.
+                &copy; 2023 Nails By Lupita. All rights reserved. | Home-based services in Reidsville, GA
             </div>
         </div>
     </footer>
@@ -1414,24 +1452,23 @@
         const heroSection = document.querySelector('.hero');
         const bookingHero = document.querySelector('.booking-hero');
         
-        // Gallery image URLs from your Dropbox links - EXACT LINKS
+        // NEW GALLERY IMAGE URLs from your ImgBB links
         const galleryImageUrls = [
-            'https://www.dropbox.com/scl/fi/n64trbmy2hq3ixtdx6aip/Screenshot-2026-01-30-231319.png?raw=1',
-            'https://www.dropbox.com/scl/fi/t53uzull26j359vv451tb/Screenshot-2026-01-30-231249.png?raw=1',
-            'https://www.dropbox.com/scl/fi/e70vh0gezu2lz7fgci2yo/Screenshot-2026-01-30-231306.png?raw=1',
-            'https://www.dropbox.com/scl/fi/33xvo7nbp9l0myj5znmje/Screenshot-2026-01-30-231241.png?raw=1',
-            'https://www.dropbox.com/scl/fi/7k0ubc8xba1czdfbjc9xq/Screenshot-2026-01-30-231230.png?raw=1',
-            'https://www.dropbox.com/scl/fi/twwnjund1f85jfhmmtm1s/Screenshot-2026-01-30-231224.png?raw=1',
-            'https://www.dropbox.com/scl/fi/jl8gdlwvgcb1lenpmlerx/Screenshot-2026-01-30-231210.png?raw=1',
-            'https://www.dropbox.com/scl/fi/l327ocjzznqzspd0wia0w/Screenshot-2026-01-30-231200.png?raw=1',
-            'https://www.dropbox.com/scl/fi/yee8v1cwxlhljnu4z9dc6/Screenshot-2026-01-30-231146.png?raw=1',
-            'https://www.dropbox.com/scl/fi/61gi3k1hwqu90fe5rjph9/Screenshot-2026-01-30-231134.png?raw=1',
-            'https://www.dropbox.com/scl/fi/ze1k6bl2azjct5ado3kh6/Screenshot-2026-01-30-231110.png?raw=1',
-            'https://www.dropbox.com/scl/fi/4gj9t82jeafj57fz5ba57/Screenshot-2026-01-30-231058.png?raw=1',
-            'https://www.dropbox.com/scl/fi/i9bpxuz8g1ncc7412fym0/Screenshot-2026-01-30-231038.png?raw=1',
-            'https://www.dropbox.com/scl/fi/tag0osj2bpxjqon51c853/Screenshot-2026-01-30-231020.png?raw=1',
-            'https://www.dropbox.com/scl/fi/jdk81mlb3ubrss3k84anx/Screenshot-2026-01-30-230948.png?raw=1',
-            'https://www.dropbox.com/scl/fi/evxa1yyr47qz4cwxeiepf/Screenshot-2026-01-30-231010.png?raw=1'
+            'https://i.ibb.co/rjYk5dJ/image1.jpg',
+            'https://i.ibb.co/3yvhWRps/image2.jpg',
+            'https://i.ibb.co/zVw8fHmF/image3.jpg',
+            'https://i.ibb.co/qFnMdRSz/image4.jpg',
+            'https://i.ibb.co/RnwfKQj/image5.jpg',
+            'https://i.ibb.co/5WHm1nzK/image6.jpg',
+            'https://i.ibb.co/PZbjPYdq/image7.jpg',
+            'https://i.ibb.co/dYcq3mW/image8.jpg',
+            'https://i.ibb.co/zV7V7Pdw/image9.jpg',
+            'https://i.ibb.co/whFhRdMr/image10.jpg',
+            'https://i.ibb.co/chsqNMPp/image11.jpg',
+            'https://i.ibb.co/RGBFtTqN/image12.jpg',
+            'https://i.ibb.co/C3QZJspN/image13.jpg',
+            'https://i.ibb.co/0jgdFMvF/image14.jpg',
+            'https://i.ibb.co/MykNbjr6/image15.jpg'
         ];
         
         // Function to switch pages
@@ -1483,9 +1520,9 @@
             
             slider.innerHTML = '';
             
-            // Create 8 slides for smooth scrolling (use first 8 images)
+            // Create slides for smooth scrolling (use available images)
             for (let i = 0; i < 8; i++) {
-                const imgIndex = i % 8; // Use first 8 images only for slider
+                const imgIndex = i % galleryImageUrls.length;
                 const slide = document.createElement('div');
                 slide.className = 'gallery-slide';
                 
@@ -1495,6 +1532,8 @@
                 img.alt = `Nail design ${i+1}`;
                 img.onerror = function() {
                     console.log(`Failed to load image: ${galleryImageUrls[imgIndex]}`);
+                    // Use a placeholder if image fails to load
+                    this.src = 'https://via.placeholder.com/300x300/FAF6F1/6B4E3D?text=Nails+By+Lupita';
                 };
                 
                 slide.appendChild(img);
@@ -1509,7 +1548,7 @@
             
             galleryGrid.innerHTML = '';
             
-            // Create all 16 gallery items
+            // Create all gallery items
             for (let i = 0; i < galleryImageUrls.length; i++) {
                 const item = document.createElement('div');
                 item.className = 'gallery-item';
@@ -1520,6 +1559,8 @@
                 img.alt = `Nail design ${i+1}`;
                 img.onerror = function() {
                     console.log(`Failed to load gallery image: ${galleryImageUrls[i]}`);
+                    // Use a placeholder if image fails to load
+                    this.src = 'https://via.placeholder.com/400x300/FAF6F1/6B4E3D?text=Nails+By+Lupita';
                 };
                 
                 item.appendChild(img);
@@ -1634,12 +1675,14 @@
             
             // Service display names
             const serviceDisplay = {
-                'short-acrylic': 'Short Acrylic Set',
-                'long-acrylic': 'Long Acrylic Set',
-                'custom-art': 'Custom Nail Art',
+                'nails-acrylic': 'Acrylic Nails',
+                'nails-custom': 'Custom Nail Art',
+                'toes': 'Toe Services',
+                'lashes': 'Lash Services',
+                'piercings': 'Piercings',
+                'nails-fill': 'Nail Fill',
+                'nails-removal': 'Nail Removal',
                 'sneeze-in': 'Sneeze-In Appointment (+$15)',
-                'fill': 'Acrylic Fill',
-                'removal': 'Acrylic Removal',
                 'other': 'Other/Consultation'
             }[service];
             
@@ -1657,12 +1700,15 @@
                 
                 📝 Notes: ${notes || 'None provided'}
                 
+                📍 Location: Home-based service in Reidsville, GA
+                
                 You will receive a confirmation text/email within 24 hours. A deposit is required to secure your appointment.
                 
-                📍 Location: Local GA Nail Tech
+                For questions, contact:
                 📱 Phone: 912-401-3684
                 📧 Email: cluptiaskyla@gmail.com
                 📸 Instagram: @nailssbygloxn
+                📘 Facebook: Lupita Castillo
             `;
             
             // Show confirmation alert
@@ -1674,6 +1720,12 @@
             // Set minimum date to today
             const today = new Date().toISOString().split('T')[0];
             document.getElementById('date').min = today;
+            
+            // Set placeholder date to tomorrow
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            const tomorrowFormatted = tomorrow.toISOString().split('T')[0];
+            document.getElementById('date').value = tomorrowFormatted;
             
             // Switch to home page after booking
             switchPage('home');
@@ -1708,6 +1760,19 @@
             if (hash && pages[hash]) {
                 switchPage(hash);
             }
+            
+            // Test gallery image loading
+            console.log('Testing gallery image loading...');
+            galleryImageUrls.forEach((url, index) => {
+                const testImg = new Image();
+                testImg.onload = function() {
+                    console.log(`✓ Image ${index+1} loaded successfully`);
+                };
+                testImg.onerror = function() {
+                    console.log(`✗ Image ${index+1} failed to load: ${url}`);
+                };
+                testImg.src = url;
+            });
         });
     </script>
 </body>
